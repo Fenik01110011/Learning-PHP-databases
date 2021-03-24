@@ -1,0 +1,42 @@
+body{
+	background: url(ricepaper2.png); /* Background pattern from Toptal Subtle Patterns */
+}
+
+table {
+	width: 100%;
+	border: 3px solid #000
+}
+
+td {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+#container{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-of-type(2n)
+{
+	background-color: #d1f5ff;
+}
+
+tr:nth-of-type(2n + 1)
+{
+	background-color: #bfffca;
+}
+
+tr:nth-of-type(1)
+{
+	background-color: #fff;
+}
+
+.usun{
+	background-color: #ff0000;
+}
+
+.popraw{
+	background-color: #ffe500;
+}
